@@ -1,6 +1,4 @@
-# Refurbish Goods Marketplace
-
-[Live Demo](https://refurbished-goods-marketplace-app.onrender.com)
+# Campusbaazar
 
 ## Description
 
@@ -15,7 +13,7 @@ This is a MERN Stack Website which allows users to buy or sell their refurbished
 
 ### Run Program
 
-To run the website, you need to run server firstly by running this command `npm run start`. After the server has started, you jump into client folder by running command `cd client` and then run `npm run start` to start the website.
+To run the website, you need to run `npm start` to start the website.
 
 ## Technologies
 
@@ -36,8 +34,6 @@ To run the website, you need to run server firstly by running this command `npm 
 ## Usage
 
 - There are two type of users: `admin` and `user`
-- Admin account: `email: admin@gmail.com; password: 123`
-- User account: `email: user@gmail.com; password: 123`
 - Admin role: can manages all products, users and makes new bid as well.
 - User role: can add their own products for selling(but need aproval from admin) and make bids for buying.
 - Notification will be delivered to admin and user whenever a new product added by users and approved/blocked by admin. Whenever a bid was made or accepted, the notification will also be sent to seller/buyer.

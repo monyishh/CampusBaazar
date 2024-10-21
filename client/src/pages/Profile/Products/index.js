@@ -14,6 +14,8 @@ function Products() {
     const { user } = useSelector((state) => state.user);
     const [selectedProduct, setSelectedProduct] = useState(null);
     const [showBidModal, setShowBidModal] = useState(false);
+
+    
     const getData = async () => {
         try {
             dispatch(SetLoader(true));
